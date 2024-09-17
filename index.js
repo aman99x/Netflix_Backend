@@ -17,7 +17,6 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-    // origin:"http://localhost:3000",
     origin: ["http://localhost:3000", "https://netflix-clone-three-beta.vercel.app"],
     credentials:true
 }
